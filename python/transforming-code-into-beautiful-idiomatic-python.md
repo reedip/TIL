@@ -76,7 +76,7 @@ for i in range(n):
 for name, color in zip(names, colors):
     print(name, '-->', color)
 ```
-
+> Issue : zip creates a third list so takes a lot of memory and doesnt scale
 ### Looping in sorted order
 
 ```python
