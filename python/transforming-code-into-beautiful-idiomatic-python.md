@@ -125,7 +125,7 @@ blocks = []
 for block in iter(partial(f.read, 32), ''):
     blocks.append(block)
 ```
-
+> partial takes a function of many arguments and converts it into function of lesser arguments
 ### Distinguishing multiple exit points in loops
 
 ```python
