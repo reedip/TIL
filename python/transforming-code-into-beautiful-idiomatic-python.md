@@ -175,6 +175,11 @@ for k in d:
   
 for k, v in d.items():
     print(k, '-->', v)
+    
+# Return iterables
+for k, v in d.iteritems():
+    print(k, '-->', v)
+
 ```
 
 ### Construct a dictionary in pairs
