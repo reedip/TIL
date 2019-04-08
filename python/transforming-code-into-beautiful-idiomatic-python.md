@@ -75,8 +75,12 @@ for i in range(n):
 # Pythonic-way
 for name, color in zip(names, colors):
     print(name, '-->', color)
+
+# Better pythonic way
+for name, color in izip(names, colors):
+    print(name, "---->", color)
 ```
-> Issue : zip creates a third list so takes a lot of memory and doesnt scale
+> Issue : zip creates a third list so takes a lot of memory and doesnt scale, so use izip which provides iterator
 ### Looping in sorted order
 
 ```python
