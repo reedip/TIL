@@ -109,7 +109,7 @@ print sorted(colors, cmp=compare_length)
 # Pythonic-way
 print(sorted(colors, key=len))
 ```
-
+> key function is called just once per key
 ### Call a function until a sentinel value
 
 ```python
